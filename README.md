@@ -40,6 +40,6 @@ when $\lambda_1 = \lambda_2.$
 
 # Code
 
-In this repo, I include a code for the derivation and a jupyter notebook for validating the result.
+In this repo, I include a python implementation of the derivation with some jupyter notebooks for validating the result.
 
 
