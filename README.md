@@ -42,4 +42,5 @@ when $\lambda_1 = \lambda_2.$
 
 In this repo, I include a python implementation of the derivation ``utils.exp_was_dist`` with the jupyter notebook ``validation.ipynb`` for validating the result.
 
-
+The below figure validates the derivation by comparing it with the empirical mean of sample distances. 
+![Validation result](https://github.com/JH-Won/One-dimensional-Wasserstein-distances/blob/main/Validation.png)
