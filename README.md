@@ -40,6 +40,6 @@ when $\lambda_1 = \lambda_2.$
 
 # Code
 
-In this repo, I include a python implementation of the derivation with the jupyter notebook ``validation.ipynb`` for validating the result.
+In this repo, I include a python implementation of the derivation ``utils.exp_was_dist`` with the jupyter notebook ``validation.ipynb`` for validating the result.
 
 
