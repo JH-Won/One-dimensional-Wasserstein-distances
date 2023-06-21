@@ -44,6 +44,9 @@ In this repo, I include a python implementation of the derivation ``utils.exp_wa
 
 In the notebook, you can generate the figures that validates the derivation:
 
-
+Comparision with the empirical mean:
 ![Validation result1](https://github.com/JH-Won/One-dimensional-Wasserstein-distances/blob/main/Validation.png)
+
+
+Rate encoding of the sample distance:
 ![Validation result2](https://github.com/JH-Won/One-dimensional-Wasserstein-distances/blob/main/Validation_rate_encoding.png)
