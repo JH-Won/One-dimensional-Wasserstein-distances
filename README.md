@@ -43,6 +43,4 @@ when $\lambda_1 = \lambda_2.$
 In this repo, I include a python implementation of the derivation ``utils.exp_was_dist`` with the jupyter notebook ``validation.ipynb`` for validating the result.
 
 In the notebook, you can generate the figures that validates the derivation:
-![Validation result](https://github.com/JH-Won/One-dimensional-Wasserstein-distances/blob/main/Validation.png)
-
 ![Validation result2](https://github.com/JH-Won/One-dimensional-Wasserstein-distances/blob/main/Validation_rate_encoding.png)
