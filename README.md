@@ -16,7 +16,7 @@ meaning that the expected information we can obtain from $W(\mu, \nu)$ is a sum 
 
 $$ \mathbb{E}[W(\mu, \nu)] = \frac{1}{n} \sum^n_{k=1} \mathbb{E}[|x_k - y_k|].$$ 
 
-In my thesis, I derive the sample distance expectation $\mathbb{E}[|x_k - y_k|]$ and show that the rate difference between $\lambda_1$ and $\lambda_2$ is indeed encoded in the expectation, which can be viewed as an evidence that the Wasserstein distance can capture the rate difference between density functions.
+In my thesis, I actually derive the sample distance expectation $\mathbb{E}[|x_k - y_k|]$ and show that the rate difference between $\lambda_1$ and $\lambda_2$ is indeed encoded in the expectation. This can be viewed as an evidence that the Wasserstein distance can capture the rate difference between density functions.
 
 The derivation of the sample distance expectation is:
 
