@@ -22,7 +22,7 @@ The derivation of the sample distance expectation is:
 
 $$ \mathbb{E}[|x_k - y_k|] = \int \int |x_k - y_k| p(x_k) p(y_k), $$
 
-where the double integration is taken over $[0, \infty)$, and the density functions of signals $x_k, y_k$ are gamma density functions. The integration yields the result: 
+where the double integration is taken over $[0, \infty)$, and the density functions of signals $x_k, y_k$ are [gamma density functions](https://en.wikipedia.org/wiki/Erlang_distribution). The integration (which uses integration by parts and some tricks) yields the result: 
 
 $$ \mathbb{E} [|x_k - y_k|] = \frac{\lambda_1 \lambda_2}{\lambda_1+\lambda_2}\sum_{i=0}^{2k} \binom{2k}{i} \left(\frac{\lambda_1}{\lambda_1+\lambda_2}\right)^{i} \left(\frac{\lambda_2}{\lambda_1+\lambda_2}\right)^{2k-i} |k-i|, $$
 
