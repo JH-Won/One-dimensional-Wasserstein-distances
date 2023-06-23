@@ -4,7 +4,7 @@ This is a code base for my thesis work, the analysis of one-dimensional Wasserst
 
 ## Introduction
 
-The Wasserstein distance is a well-known distance for capturing domain difference between probability density functions using sample distance information. The use of sample distance has been emphasized widely in various applications, particularly for those having density functions with significantly different domains. However, it has been unclear whether the optimal transport distance encodes rate difference information of density function or completely ignores it. In my thesis, by analyzing the distance of Poisson process signals, I demonstrate the distance actually encodes the rate difference information of signals.
+The Wasserstein distance is a well-known distance for capturing domain difference between probability density functions using sample distance information. The use of sample distance has been emphasized widely in various applications, particularly for those having density functions with significantly different domains. However, it has been unclear whether this transport distance encodes rate difference information of density function or completely ignores it. In my thesis, by analyzing the one-dimensional distance of Poisson process signals, I demonstrate the distance actually captures the rate difference information, encoded in signals.
 
 ## Core idea and derivation
 
