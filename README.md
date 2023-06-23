@@ -12,7 +12,7 @@ The core idea of analysis is using the fact that one-dimensional Wasserstein dis
 
 $$ W(\mu, \nu) = \frac{1}{n} \sum^n_{k=1} |x_k - y_k|, $$
 
-and the expected information we can obtain from the distance $W(\mu, \nu)$ is a sum of the sample distance expectations:
+meaning that the expected information we can obtain from $W(\mu, \nu)$ is a sum of the sample distance expectations:
 
 $$ \mathbb{E}[W(\mu, \nu)] = \frac{1}{n} \sum^n_{k=1} \mathbb{E}[|x_k - y_k|].$$ 
 
