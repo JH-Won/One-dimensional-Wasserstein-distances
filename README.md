@@ -8,7 +8,7 @@ The Wasserstein distance is a well-known distance for capturing domain differenc
 
 ## Core idea and derivation
 
-I use the fact that one-dimensional Wasserstein distance is a linear combination of sample distances. That is, for two Poisson processes $\mu=\{x_1, x_2, \cdots, x_n\}$ and $\nu = \{y_1, y_2, \cdots, y_n\}$ of different rates $\lambda_1$ and $\lambda_2$, the Wasserstein distance is:
+The core idea of analysis is using the fact that one-dimensional Wasserstein distance is a linear combination of sample distances. That is, for two Poisson process series $\mu=\{x_1, x_2, \cdots, x_n\}$ and $\nu = \{y_1, y_2, \cdots, y_n\}$ of different rates $\lambda_1$ and $\lambda_2$, the Wasserstein distance is merely a sum of signal distances:
 
 $$ W(\mu, \nu) = \frac{1}{n} \sum^n_{k=1} |x_k - y_k|, $$
 
